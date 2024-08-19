@@ -1,5 +1,27 @@
 # Simple TODO CRUD API
 
+## run
+
+### run db
+
+```
+$ cd db
+$ sudo docker-compose up
+```
+
+### init db
+
+```
+$ go run init.go
+```
+
+### run server
+
+```
+$ go run main.go
+```
+
+
 ## CRUD Reqeusts
 
 ### Read
